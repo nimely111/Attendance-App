@@ -84,3 +84,10 @@ section h1{
 }
 /* welcome ends*/
 
+/* view starts*/
+
+.view{
+    background: var(--primary);
+    color: #fff;
+    height: 400px;
+}
