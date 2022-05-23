@@ -29,12 +29,6 @@ a{
     height: 80px;
 }
 
-h1,h2{
-    font-weight: 300px;
-    line-height: 1.2;
-    margin-top: 10px 0;
-}
-
 img{
     width: 100%;
 }
@@ -42,13 +36,22 @@ img{
 .img-cover{
     width: 200px;
     height: 200px;
-    line-height: 1.2;
     margin: -10px;
 }
 
 .title-header{
     max-width: 1100px;
     margin-left: 30px;
+
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
 
+.title{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
