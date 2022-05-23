@@ -69,7 +69,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15% auto;
+    margin: 15% auto;
 }
 
 section h1{
