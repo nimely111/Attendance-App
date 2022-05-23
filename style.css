@@ -87,6 +87,12 @@ section h1{
     color: var(--primary);
     font-weight: bold;
 }
+
+#options:hover{
+    cursor: pointer;
+}
+
+
 /* welcome ends*/
 
 /* view starts*/
