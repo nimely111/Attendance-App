@@ -60,6 +60,10 @@ img{
 /* header ends*/
 
 /* welcome starts*/
-
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* welcome ends*/
 
