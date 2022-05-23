@@ -23,6 +23,7 @@ a{
     text-decoration: none;
 }
 
+/* header starts*/
 .header{
     background: var(--primary);
     color: #fff;
@@ -55,3 +56,10 @@ img{
     margin-top: 10px;
     margin-right: 10px;
 }
+
+/* header ends*/
+
+/* welcome starts*/
+
+/* welcome ends*/
+
