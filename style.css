@@ -44,8 +44,9 @@ img{
 
 .title-header{
     max-width: 1100px;
-    margin-left: 30px;
-
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 40px;
 }
 
 .flex{
@@ -69,7 +70,7 @@ img{
     margin: 15% auto;
 }
 
-SECTION     h1{
+section h1{
     text-align: center;
     margin-top: 30px;
 }
