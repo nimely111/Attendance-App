@@ -77,7 +77,7 @@ section h1{
     padding-top: 30px;
 }
 
-#options{
+.options{
     background: var(--secondary);
     padding: 10px;
     border: none;
