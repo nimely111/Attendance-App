@@ -6,8 +6,6 @@ Array.from(document.querySelector('#colors-dropdown').options).forEach((option_e
     console.log('option text: ' +option_text);
     console.log('option value: ' +option_value);
     console.log('option selected: ' +(is_option_selected === true ? 'Yes' : 'No'));
-    document.body.appendChild(option_element);
-
     console.log('\n\r');
 
 })
