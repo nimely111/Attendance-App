@@ -23,7 +23,7 @@ const selectMembersOption = Array.from(document.querySelector('#members-option')
 
     console.log('Options text: ' +option_text);
     console.log('Options value: ' +option_value);
-    console.log('Options selected: ' +(is_option_selected === true) ? 'Yes' :  'No');
+    console.log('Options selected: ' +(is_option_selected === true ? 'Yes' :  'No'));
 
     console.log('\n\r');
     
