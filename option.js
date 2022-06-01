@@ -3,8 +3,10 @@ Array.from(document.querySelector('#colors-dropdown').options).forEach((option_e
     let option_value = option_element.value;
     let is_option_selected = option_element.selected;
 
-    console.log(option_text);
-    console.log(option_value);
-    console.log(is_option_selected);
+    console.log('option text: ' +option_text);
+    console.log('option value: ' +option_value);
+    console.log('option selected: ' +is_option_selected);
+
+    console.log('\n\r');
 
 })
