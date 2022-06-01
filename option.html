@@ -19,52 +19,11 @@
     <script type="text/javascript" src="./option.js"></script>
 
     <!--
-
-<select id="colors-dropdown">
-    <option value="RED">Red</option>
-    <option value="BLUE">Blue</option>
-    <option value="YELLOW" selected>Yellow</option>
-    <option value="PURPLE">Purple</option>
-    <option value="PINK">Pink</option>
-</select>
-Javascript
-Array.from(document.querySelector("#colors-dropdown").options).forEach(function(option_element) {
-    let option_text = option_element.text;
-    let option_value = option_element.value;
-    let is_option_selected = option_element.selected;
-
-    console.log('Option Text : ' + option_text);
-    console.log('Option Value : ' + option_value);
-    console.log('Option Selected : ' + (is_option_selected === true ? 'Yes' : 'No'));
-
-    console.log("\n\r");
-});
-Result :
-
-Option Text : Red
-Option Value : RED
-Option Selected : No
-
-Option Text : Blue
-Option Value : BLUE
-Option Selected : No
-
-Option Text : Yellow
-Option Value : YELLOW
-Option Selected : Yes
-
-Option Text : Purple
-Option Value : PURPLE
-Option Selected : No
-
-Option Text : Pink
-Option Value : PINK
-Option Selected : No
 Concepts and Methods Involved
 Getting all options in the select element : The options property of the <select> element gives a list of all <option> elements present in it (returned as a HTMLCollection object).
 Getting label and value of an option element : The text property of an <option> element gives the label of the option. The value property gives the value of the option.
 Finding whether options selected or not : The selected property of an option gives a boolean true or false depending on whether the option is selected or not. This holds for multi-select dropdown as well.
-Why Array.from() is used ? : The options property of select element returns a HTMLCollection of all options (array-like, but not an array). To iterate over this, we need to convert this array-like object to a normal Javascript array using Array.from().
+Why Array.from() is used ? : The opconvertconverttions property of select element returns a HTMLCollection of all options (array-like, but not an array). To iterate over this, we need to convert this array-like object to a normal Javascript array using Array.from().
 IN THIS TUTORIAL
 Use-Cases of this code snippet
 HTML

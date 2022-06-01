@@ -15,3 +15,6 @@
 // }
 
 
+const selectMembersOption = Array.from(docuent.querySelector('#members-option').options).forEach(function(){
+    
+})
