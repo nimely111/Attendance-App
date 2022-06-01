@@ -15,10 +15,13 @@
 // }
 
 // converting the select object to array using the Array.from() method
-const selectMembersOption = Array.from(docuent.querySelector('#members-option').options).forEach(function(option_element){
+const selectMembersOption = Array.from(document.querySelector('#members-option').options).forEach(function(option_element){
     // initializing the variables to be loop over
     let  option_text = option_element.text;
     let option_value = option_element.value;
     let is_option_selected = option_element.selected;
-    
+
+    console.log(option_text);
+    console.log(option_value);
+    console.log(is_option_selected);
 })
