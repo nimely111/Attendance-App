@@ -7,16 +7,23 @@
     <title>Looping through Options</title>
 </head>
 <body>
-    <select name="" id="colors-dropdown">
+    <select name="colors-dropdown" id="colors-dropdown">
         <option value="RED">red</option>
         <option value="BLUE">blue</option>
         <option value="Yellow" selected>yellow</option>
         <option value="GREEN">green</option>
     </select>
 
+    <h1>Status</h1>
 
+    <script type="text/javascript">
+        const status = document.querySelector('h1');
+        const select = document.querySelector('select');
 
-    <script type="text/javascript" src="./option.js"></script>
+        select.addEventListener('change', () => {
+            status.innerText = select.value;
+        })
+    </script>
 
     <!--
 Concepts and Methods Involved
