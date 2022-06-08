@@ -17,4 +17,4 @@ const output = document.querySelector('#result');
 selectMembersOption.addEventListener('change', () =>{
     output.innerText = selectMembersOption.value;
     console.log(selectMembersOption.value);
-})
+});
