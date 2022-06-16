@@ -26,7 +26,7 @@
         <div class="welcome">
             <form  >
                 <label for="options" >
-                    <select name="links" id="members-option" class="options">
+                    <select name="links" id="members-option" class="options" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
                         <option>SELECT MEMBERSHIP</option>
                         <option value="E-MEMBERSHIP" id="e-membership" selected>E-Membership</option>
                         <option value="J-MEMBERSHIP" id="j-membership">J-Membership</option>
@@ -38,9 +38,16 @@
 
                     </select>
                 </label>
+                <!-- <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                    <option value="">Select...</option>
+                    <option value="https://reactjs.org/">React Js</option>
+                    <option value="https://angularjs.org/">Angular Js</option>
+                    <option value="https://developer.mozilla.org/en-US/">MDN</option>
+                    <option value="./test.html">Test</option>
+                    <option value="./lest.html">Lest</option>
             </form>
             
-            <div id="result">Clicked Result</div>
+            <div id="result">Clicked Result</div> -->
         </div>
 
     </section>
