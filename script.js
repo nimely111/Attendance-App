@@ -12,11 +12,11 @@
 //     console.log('\n\r');
 // })
 
-const selectMembersOption = document.querySelector('select');
-const output = document.querySelector('#result');
-selectMembersOption.addEventListener('change', () =>{
-    output.innerText = selectMembersOption.value;
-    console.log(selectMembersOption.value);
+// const selectMembersOption = document.querySelector('select');
+// const output = document.querySelector('#result');
+// selectMembersOption.addEventListener('change', () =>{
+//     output.innerText = selectMembersOption.value;
+//     console.log(selectMembersOption.value);
 
     
-});
+// });
